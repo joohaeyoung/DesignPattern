@@ -14,11 +14,8 @@ public class Compact extends Car {
 	public int cost(Vehicle.Color color) {
 		
 		AddCost addcost = new AddCost(color);
-		
 		return 2500 + addcost.addCost();
-	
 	}
-
 }
 
 

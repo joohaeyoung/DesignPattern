@@ -3,6 +3,8 @@ import java.util.Observer;
 public class TestProgram {
 
 	public static void main(String[] args) {
+		
+		
 		/* 실습 1까지 - push 방식 */
 //		NewsPublisher newsServer = new SportsNewsPublisher(); 
 //		NewClient client1 = new NewClient("kic"); 
@@ -13,6 +15,8 @@ public class TestProgram {
 //		newsServer.setNewsFeed("리버풀 2: 맨유 0"); 
 //		newsServer.deleteObserver(client2); 
 //		newsServer.setNewsFeed("리버풀 2: 맨유 1");
+	
+		
 		
 		/* 실습 2-2까지 - push 방식 */
 //		NewsPublisher newsServer = new ITNewsPublisher(); 

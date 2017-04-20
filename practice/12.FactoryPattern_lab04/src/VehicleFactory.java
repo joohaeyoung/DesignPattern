@@ -26,7 +26,6 @@ public abstract class VehicleFactory {
 
 		v.paint(color);
 		
-		
 		return v;
 			
 	}

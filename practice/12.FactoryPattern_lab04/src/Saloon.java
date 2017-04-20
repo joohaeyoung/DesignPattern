@@ -11,7 +11,7 @@ public class Saloon extends Car {
 	public int cost(Vehicle.Color color) {
 		
 		AddCost addcost = new AddCost(color);
-			
+		
 			return 5000 + addcost.addCost();
 		}
 }

@@ -3,26 +3,27 @@ public abstract class Beverage {
 	
 	
 	private String description = "Unknown Beverage";
+
+	
+	//private 으로 선언하였기때문에 있어야 되는 코드다. 
+	public void setDescription(String description) {//상속 받는 쪽에서 디스크립트를 설정할 수 있도록 한다. 
+		this.description = description;
+	}
 	
 	public String getDescription() {
 		return description;
 	}
 	
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	
 	abstract public int cost();
 
 	
+	
 	public boolean equals(Object o){
-		
 		
 		if(o==null||o.getClass() != getClass()) return false;
 		if(o==this) return true;
 		return false;
-		
-	
+			
 	}
 	
 	

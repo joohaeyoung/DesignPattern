@@ -20,18 +20,14 @@ public class SerialNumberGenerator {
 
 	//스태틱으로 해도됨.
 	private int number = 0 ;
-
-
+	
 	//스태틱으로 해도됨. 
 	public int getNext(){
 		
 		return ++number;
 	}
-	
 	public static SerialNumberGenerator getInstance(){
-			return Holder.unique;
-		
+			return Holder.unique;	
 	}
 	
-
 }

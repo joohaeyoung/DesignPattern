@@ -32,7 +32,6 @@ public class MultitonV2 {
 			return pool[number2-1];
 		
 		}
-		
 					
 	}
 }

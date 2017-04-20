@@ -13,12 +13,9 @@ public class Multiton {
 
 	
 	private static final HashMap<String,Multiton> registory = new HashMap<>();
-
-	
-	
 	private static final int NUMBEROFINSTANCE = 3;
-	private Multiton(){}
 	
+	private Multiton(){}
 	
 	public static Multiton getInstance(String key){
 		
@@ -26,7 +23,7 @@ public class Multiton {
 			return registory.get(key);
 		
 		else{
-			
+			//없으면 만들어서 넣는다.ㅋ
 			if( registory.size() <= 2){
 				
 				Multiton o = new Multiton();

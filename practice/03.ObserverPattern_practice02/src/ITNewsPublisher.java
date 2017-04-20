@@ -4,10 +4,13 @@ import java.util.Observer;
 public class ITNewsPublisher implements NewsPublisher {
 	
 	ImprovedObservable observers = new ImprovedObservable();
+	
 	private String latestFeed;
 	
 	@Override
+	
 	public void setNewsFeed(String newsFeed){
+		
 		this.latestFeed = newsFeed;
 		observers.setChanged();
 		//pull

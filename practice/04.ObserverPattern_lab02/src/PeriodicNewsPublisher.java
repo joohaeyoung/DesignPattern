@@ -9,6 +9,7 @@ public class PeriodicNewsPublisher implements NewsPublisher {
 	//새로운 뉴스정보 관리.
 	private ArrayList<String> lastestFeed = new ArrayList<String>();
 	
+	
 	//새뉴스 발생 횟수. 
 	private int newsCount = 0;
 	
@@ -48,11 +49,10 @@ public class PeriodicNewsPublisher implements NewsPublisher {
 				for(int i = newsCount - x.getInterval()+1 ; i <= newsCount ; i++ )
 					x.update( lastestFeed.get(i-1) );
 				
-							
-			}
-			
+			}	
 		}
 	}
+	
 }
 
 

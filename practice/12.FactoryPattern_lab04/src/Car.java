@@ -6,6 +6,7 @@
 
 //그냥 Car와 offRoad 를 구분하기 위해서 굳이 할필요없지만 이렇게 만들어 놓음
 public abstract class Car extends Vehicle {
+	
 	public Car(String description) {
 		super(description);
 	}

@@ -8,7 +8,6 @@
 public abstract class Vehicle {
 	
 	//칼라는 오직 이 칼라만이 가능하다. 
-	
 	public enum Color {UNPAINTED, BLUE, BLACK, PERLWHITE, WHITE, SILVER, GRAY, RED};
 	
 	private Vehicle.Color color = Vehicle.Color.UNPAINTED;
@@ -17,6 +16,7 @@ public abstract class Vehicle {
 	
 	public Vehicle(){ 
 	}
+	
 	public Vehicle(String description){
 		this.description = description;
 	}

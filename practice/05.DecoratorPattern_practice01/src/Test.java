@@ -9,8 +9,8 @@ public class Test {
 		beverage = new Mocha(beverage);
 		
 		System.out.printf("%s: %,d¿ø", 
-			beverage.getDescription(),beverage.cost());
-
+				beverage.getDescription(),beverage.cost());
+		
 	}
 
 }

@@ -9,9 +9,17 @@ public class Test {
 		beverage = new Mocha(beverage);
 		beverage = new Mocha(beverage);
 		
-		System.out.printf("%s: %,d원", 
+		System.out.printf("%s: %,d원\n", 
 			beverage.getDescription(),beverage.cost());
-
+		
+		beverage = beverage.removeCondiment();
+		System.out.printf("%s : %,d원\n", beverage.getDescription(), beverage.cost());
+		
+		beverage = beverage.removeCondiment();
+		System.out.printf("%s : %,d원\n", beverage.getDescription(), beverage.cost());
+		
+		beverage = beverage.removeCondiment();
+		System.out.printf("%s : %,d원\n", beverage.getDescription(), beverage.cost());
+		
 	}
-
 }

@@ -14,9 +14,7 @@ public class InnerSingleton {
 	private InnerSingleton(){}
 	
 	public static InnerSingleton getInstance(){
-		return Holder.unique;
+		return Holder.unique; 
 	}
 	
-
-
 }

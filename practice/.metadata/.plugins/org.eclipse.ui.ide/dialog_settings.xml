@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\Object-Oriented Programming\practice\13.CommandPatternPractice"/>
+			<item value="E:\Object-Oriented Programming\practice\11.SingletonPattern-Lab04"/>
+			<item value="E:\Object-Oriented Programming\practice\10.SingletonPattern_practice01"/>
+			<item value="E:\Object-Oriented Programming\practice\12.FactoryPattern_lab04"/>
+			<item value="E:\Object-Oriented Programming\practice\09.DecoratorPattern_lab03"/>
+			<item value="E:\Object-Oriented Programming\practice\08.DecoratorPattern_practice04"/>
+			<item value="E:\Object-Oriented Programming\practice\07.DecoratorPattern_practice03"/>
+			<item value="E:\Object-Oriented Programming\practice\06.DecoratorPattern_practice02"/>
+			<item value="E:\Object-Oriented Programming\practice\05.DecoratorPattern_practice01"/>
+			<item value="E:\Object-Oriented Programming\practice\04.ObserverPattern_lab02"/>
+			<item value="E:\Object-Oriented Programming\practice\03.ObserverPattern_practice02"/>
+			<item value="E:\Object-Oriented Programming\practice\02.StrategyPattern_lab01"/>
+			<item value="E:\Object-Oriented Programming\practice\01.StrategyPattern_practice01"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>
