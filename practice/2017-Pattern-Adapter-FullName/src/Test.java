@@ -1,0 +1,15 @@
+
+public class Test {
+	
+	public static void main(String[] args ){
+		
+		FullName name1 = new FullNameAdapter1( new User("±è","»óÁø") );
+		FullName name2 = new FullNameAdapter2("±è","»óÁø" );
+		
+		System.out.println(name1.getFullName());
+		System.out.println(name2.getFullName());
+	}
+
+
+}
+//°´Ã¼¾î´ðÅÍ´Â °´Ã¼´Â Ç×»ó 2°³´Ù. 
